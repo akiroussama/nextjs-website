@@ -15,24 +15,33 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a>itdepends.tech ! your fit tech stack </a>
         </h1>
-
+        <h1 className={styles.title}>
+          your <a> fit  </a> tech stack
+        </h1>
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
         <p className={styles.description}>
-           Ready to build a software product? Choosing the right tech stack will ensure a cost-efficient and successful development project.
+          Ready to build a software product?
+          Choosing the right tech stack will ensure a cost-efficient and successful development project.
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="https://www.itdepends.tech/" className={styles.card}>
             <h2>What іs a Technology Stack? &rarr;</h2>
-            <p>A tech stack refers to a set of tools, programming languages, and technologies that work together to build digital products or solutions such as websites, mobile, and web apps.</p>
+            <p>A tech stack refers to a set of tools, programming languages,
+              and technologies that work together to build digital products
+              or solutions such as websites, mobile, and web apps.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://www.itdepends.tech/" className={styles.card}>
             <h2>How to Choose a Technology Stack? &rarr;</h2>
-            <p>Tech stack is consequential because it’s what you use for creating software programs. Thus, don’t underestimate the essence of research and analysis to select the right set of tools.</p>
+            <p>Tech stack is consequential because it’s what you use for creating software programs.
+              Thus, don’t underestimate the essence of research and analysis to select the right set of tools.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://www.itdepends.tech/"
             className={styles.card}
           >
             <h2>Top Tech Stack Models &rarr;</h2>
@@ -40,28 +49,19 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.itdepends.tech/"
             className={styles.card}
           >
             <h2>Get Expert Help &rarr;</h2>
             <p>
-            If you’re not trained in web development, then leave it to the experts.
+              If you’re not trained in web development, then leave it to the experts.
             </p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="http://akir.fr/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{'AKIR OUSSAMA'}
-          <span className={styles.logo}>
-            <Image src="https://media-exp1.licdn.com/dms/image/C4D03AQEqh0QtSD6bxA/profile-displayphoto-shrink_200_200/0/1548536747749?e=1649289600&v=beta&t=OT9aiQpz4Y2ATi-GM1mkUPIvpqdDpskEyPzKh2tnZZY" alt="AKIR OUSSAMA" width={72} height={16} />
-          </span>
-        </a>
+      
       </footer>
     </div>
   )
