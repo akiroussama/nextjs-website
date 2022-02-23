@@ -13,40 +13,39 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a>itdepends.tech ! your fit tech stack </a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+           Ready to build a software product? Choosing the right tech stack will ensure a cost-efficient and successful development project.
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>What іs a Technology Stack? &rarr;</h2>
+            <p>A tech stack refers to a set of tools, programming languages, and technologies that work together to build digital products or solutions such as websites, mobile, and web apps.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>How to Choose a Technology Stack? &rarr;</h2>
+            <p>Tech stack is consequential because it’s what you use for creating software programs. Thus, don’t underestimate the essence of research and analysis to select the right set of tools.</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Top Tech Stack Models &rarr;</h2>
+            <p>To save you time and money, you can use proven tech stack models.</p>
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Get Expert Help &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            If you’re not trained in web development, then leave it to the experts.
             </p>
           </a>
         </div>
@@ -54,13 +53,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="http://akir.fr/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{'AKIR OUSSAMA'}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="https://media-exp1.licdn.com/dms/image/C4D03AQEqh0QtSD6bxA/profile-displayphoto-shrink_200_200/0/1548536747749?e=1649289600&v=beta&t=OT9aiQpz4Y2ATi-GM1mkUPIvpqdDpskEyPzKh2tnZZY" alt="AKIR OUSSAMA" width={72} height={16} />
           </span>
         </a>
       </footer>
