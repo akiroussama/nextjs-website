@@ -29,9 +29,9 @@ export default function Home() {
         <SubTitleSample></SubTitleSample>
       </main>
 
-      {/* <footer className={styles.footer}>
+      <footer className={styles.footer}>
         <div class="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-          <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="/oussama-akir.jpg" alt="Woman's Face" />
+          <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="/laurent.jpg" alt="Woman's Face" />
           <div class="text-center space-y-2 sm:text-left">
             <div class="space-y-0.5">
               <p class="text-lg text-black font-semibold">
@@ -42,7 +42,7 @@ export default function Home() {
               </p>
             </div> </div>
         </div>
-      </footer> */}
+      </footer>
     </div >
   )
 }
